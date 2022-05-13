@@ -2,50 +2,61 @@
     "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
     "contentVersion": "1.0.0.0",
     "parameters": {
-        "subscriptionId": {
-            "type": "String"
-        },
         "name": {
-            "type": "String"
+            "type": "String",
+			"defaultValue": ""
         },
         "location": {
-            "type": "String"
+            "type": "String",
+			"defaultValue": ""
         },
         "hostingPlanName": {
-            "type": "String"
+            "type": "String",
+			"defaultValue": ""
         },
         "serverFarmResourceGroup": {
-            "type": "String"
+            "type": "String",
+			"defaultValue": ""
         },
         "alwaysOn": {
-            "type": "Bool"
+            "type": "Bool",
+			"defaultValue": ""
         },
         "use32BitWorkerProcess": {
-            "type": "Bool"
+            "type": "Bool",
+			"defaultValue": ""
         },
         "ftpsState": {
-            "type": "String"
+            "type": "String",
+			"defaultValue": ""
         },
         "storageAccountName": {
-            "type": "String"
+            "type": "String",
+			"defaultValue": ""
         },
         "netFrameworkVersion": {
-            "type": "String"
+            "type": "String",
+			"defaultValue": ""
         },
         "sku": {
-            "type": "String"
+            "type": "String",
+			"defaultValue": ""
         },
         "skuCode": {
-            "type": "String"
+            "type": "String",
+			"defaultValue": ""
         },
         "workerSize": {
-            "type": "String"
+            "type": "String",
+			"defaultValue": ""
         },
         "workerSizeId": {
-            "type": "String"
+            "type": "String",
+			"defaultValue": ""
         },
         "numberOfWorkers": {
-            "type": "String"
+            "type": "String",
+			"defaultValue": ""
         }
     },
     "variables": {
@@ -648,6 +659,7 @@
                 "supportsHttpsTrafficOnly": true,
                 "minimumTlsVersion": "TLS1_2"
             }
-        }
+        },
+
     ]
 }
