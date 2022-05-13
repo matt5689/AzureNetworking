@@ -4,59 +4,59 @@
     "parameters": {
         "name": {
             "type": "String",
-			"defaultValue": ""
+            "defaultValue": ""
         },
         "location": {
             "type": "String",
-			"defaultValue": ""
+            "defaultValue": ""
         },
         "hostingPlanName": {
             "type": "String",
-			"defaultValue": ""
+            "defaultValue": ""
         },
         "serverFarmResourceGroup": {
             "type": "String",
-			"defaultValue": ""
+            "defaultValue": ""
         },
         "alwaysOn": {
             "type": "Bool",
-			"defaultValue": ""
+            "defaultValue": ""
         },
         "use32BitWorkerProcess": {
             "type": "Bool",
-			"defaultValue": ""
+            "defaultValue": ""
         },
         "ftpsState": {
             "type": "String",
-			"defaultValue": ""
+            "defaultValue": ""
         },
         "storageAccountName": {
             "type": "String",
-			"defaultValue": ""
+            "defaultValue": ""
         },
         "netFrameworkVersion": {
             "type": "String",
-			"defaultValue": ""
+            "defaultValue": ""
         },
         "sku": {
             "type": "String",
-			"defaultValue": ""
+            "defaultValue": ""
         },
         "skuCode": {
             "type": "String",
-			"defaultValue": ""
+            "defaultValue": ""
         },
         "workerSize": {
             "type": "String",
-			"defaultValue": ""
+            "defaultValue": ""
         },
         "workerSizeId": {
             "type": "String",
-			"defaultValue": ""
+            "defaultValue": ""
         },
         "numberOfWorkers": {
             "type": "String",
-			"defaultValue": ""
+            "defaultValue": ""
         }
     },
     "variables": {
